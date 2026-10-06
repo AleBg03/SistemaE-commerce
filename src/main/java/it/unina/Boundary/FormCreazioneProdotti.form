@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="it.unina.Boundary.FormCreazioneProdotti">
+  <grid id="27dc6" binding="jpPrincipale" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="12" vgap="10">
+    <margin top="16" left="16" bottom="16" right="16"/>
+    <constraints>
+      <xy x="20" y="20" width="620" height="481"/>
+    </constraints>
+    <properties>
+      <preferredSize width="620" height="480"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="cr002" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="Creazione prodotto"/>
+        </properties>
+      </component>
+      <component id="cr003" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tutti i campi sono obbligatori."/>
+        </properties>
+      </component>
+      <component id="cr004" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nome"/>
+        </properties>
+      </component>
+      <component id="cr005" class="javax.swing.JTextField" binding="jtfNome">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="24"/>
+          <toolTipText value="Nome obbligatorio, massimo 15 caratteri."/>
+        </properties>
+      </component>
+      <component id="cr006" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Descrizione"/>
+        </properties>
+      </component>
+      <scrollpane id="cr007">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="96"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="cr008" class="javax.swing.JTextArea" binding="jtaDescrizione">
+            <constraints/>
+            <properties>
+              <columns value="24"/>
+              <lineWrap value="true"/>
+              <rows value="4"/>
+              <toolTipText value="Descrizione obbligatoria, massimo 200 caratteri."/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="cr009" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Prezzo (euro)"/>
+        </properties>
+      </component>
+      <component id="cr010" class="javax.swing.JTextField" binding="jtfPrezzo">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="24"/>
+          <toolTipText value="Prezzo maggiore di zero, ad esempio 19,99 oppure 19.99."/>
+        </properties>
+      </component>
+      <component id="cr011" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Quantita'"/>
+        </properties>
+      </component>
+      <component id="cr012" class="javax.swing.JTextField" binding="jtfQuantita">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="24"/>
+          <toolTipText value="Numero intero non negativo."/>
+        </properties>
+      </component>
+      <component id="cr013" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Categoria (nome)"/>
+        </properties>
+      </component>
+      <component id="cr014" class="javax.swing.JTextField" binding="jtfCategoria">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="24"/>
+          <toolTipText value="Nome di una categoria gia' registrata; la sua esistenza verra' verificata dal dominio."/>
+        </properties>
+      </component>
+      <component id="cr015" class="javax.swing.JTextArea" binding="jtaMessaggio">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="48"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="24"/>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font swing-font="Label.font"/>
+          <lineWrap value="true"/>
+          <opaque value="false"/>
+          <rows value="2"/>
+          <wrapStyleWord value="true"/>
+        </properties>
+      </component>
+      <grid id="cr016" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="true" same-size-vertically="false" hgap="12" vgap="0">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="cr017" class="javax.swing.JButton" binding="jbCreaProdotto">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="150" height="36"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Crea prodotto"/>
+            </properties>
+          </component>
+          <component id="cr018" class="javax.swing.JButton" binding="jbAnnulla">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="150" height="36"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Annulla"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
