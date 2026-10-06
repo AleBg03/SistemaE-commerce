@@ -1,17 +1,34 @@
 package it.unina;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import it.unina.Boundary.MainForm;
+import it.unina.Database.JpaUtil;
+
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        try {
+            JpaUtil.getInstance().getEntityManager().close();
+        } catch (RuntimeException e) {
+            Throwable causa = e;
+            while (causa.getCause() != null) {
+                causa = causa.getCause();
+            }
+            JOptionPane.showMessageDialog(null, "Impossibile collegarsi al database MySQL.\nControllare che MySQL sia avviato e i dati di connessione in\nsrc/main/resources/META-INF/persistence.xml (url, utente, password).\n\nDettaglio: " + causa.getMessage(),
+                    "Database non raggiungibile", JOptionPane.ERROR_MESSAGE);
+            System.exit(1);
         }
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> JpaUtil.getInstance().chiudi()));
+        SwingUtilities.invokeLater(() -> {
+            MainForm mainForm = new MainForm();
+            JFrame frame = new JFrame();
+            frame.setTitle("E-commerce");
+            frame.setContentPane(mainForm.$$$getRootComponent$$$());
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setResizable(false);
+            frame.pack();
+            frame.setLocationRelativeTo(null);
+            frame.setVisible(true);
+        });
     }
 }

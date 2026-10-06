@@ -1,6 +1,7 @@
 package it.unina.Boundary;
 
 import it.unina.Control.CGestioneCatalogo;
+import it.unina.Control.CGestioneOrdini;
 import it.unina.Control.DatiIndirizzo;
 
 public class BCliente {
