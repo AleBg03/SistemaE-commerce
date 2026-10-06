@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="it.unina.Boundary.FormCarrello">
+  <grid id="9a065" binding="panel1" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="6" vgap="6">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="660" height="440"/>
+    </constraints>
+    <properties>
+      <preferredSize width="660" height="440"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="a7383">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="620" height="240"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="96d7f" class="javax.swing.JTable" binding="tblCarrello">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="05d84" class="javax.swing.JLabel" binding="lblTotale">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Totale: 0,00 €"/>
+        </properties>
+      </component>
+      <component id="f8ea3" class="javax.swing.JLabel" binding="lblIndirizzo">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Indirizzo di spedizione: -"/>
+        </properties>
+      </component>
+      <component id="17bc2" class="javax.swing.JLabel" binding="lblMessaggio">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=" "/>
+        </properties>
+      </component>
+      <component id="f6358" class="javax.swing.JButton" binding="btnRiepilogo">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Aggiorna riepilogo"/>
+        </properties>
+      </component>
+      <component id="85b07" class="javax.swing.JButton" binding="btnNuovoIndirizzo">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nuovo indirizzo..."/>
+        </properties>
+      </component>
+      <component id="c7ef9" class="javax.swing.JButton" binding="btnConfermaOrdine">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Conferma ordine"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="it.unina.Boundary.DashboardCliente">
+  <grid id="2d791" binding="panel1" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="460" height="260"/>
+    </constraints>
+    <properties>
+      <preferredSize width="460" height="260"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="13d67" class="javax.swing.JLabel" binding="lblBenvenuto">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Benvenuto"/>
+        </properties>
+      </component>
+      <component id="0c6e4" class="javax.swing.JButton" binding="btnProfilo">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="70"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Il mio profilo"/>
+        </properties>
+      </component>
+      <component id="9ded3" class="javax.swing.JButton" binding="btnCatalogo">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="70"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Catalogo prodotti"/>
+        </properties>
+      </component>
+      <component id="bcf09" class="javax.swing.JButton" binding="btnCarrello">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="70"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Carrello"/>
+        </properties>
+      </component>
+      <component id="24ace" class="javax.swing.JButton" binding="btnStoricoOrdini">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="70"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Storico ordini"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
