@@ -82,7 +82,7 @@ public class FormRegistrazione {
         return erroreCampi.isEmpty();
     }
 
-    private String verificaPassword(String password) {
+    public String verificaPassword(String password) {
         StringBuilder errori = new StringBuilder();
         if (password.length() < 8) {
             errori.append("Password inferiore agli 8 caratteri! Deve essere una stringa compresa tra gli 8 e i 15 caratteri.\n");
@@ -146,4 +146,5 @@ public class FormRegistrazione {
     public JComponent $$$getRootComponent$$$() {
         return panel1;
     }
+
 }

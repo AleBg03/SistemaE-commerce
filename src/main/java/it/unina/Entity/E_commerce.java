@@ -49,27 +49,6 @@ public class E_commerce {
         return utenti.isEmpty();
     }
 
-    public String verificaRobustezzaPassword(String aPassword) {
-        String password = aPassword == null ? "" : aPassword;
-        StringBuilder criteri = new StringBuilder();
-        if (password.length() < 8) {
-            criteri.append("Password inferiore agli 8 caratteri! Deve essere una stringa compresa tra gli 8 e i 15 caratteri.\n");
-        }
-        if (password.length() > 15) {
-            criteri.append("Password superiore ai 15 caratteri! Deve essere una stringa compresa tra gli 8 e i 15 caratteri.\n");
-        }
-        boolean haSpeciale = false;
-        for (char c : password.toCharArray()) {
-            if (CARATTERI_SPECIALI.indexOf(c) >= 0) {
-                haSpeciale = true;
-            }
-        }
-        if (!haSpeciale) {
-            criteri.append("La password deve contenere almeno un carattere speciale.\n");
-        }
-        return criteri.toString().trim();
-    }
-
     public Utente_Registrato autentica(String aEmail, String aPassword) {
         List<Utente_Registrato> utenti = gestorePersistenza.eseguiQuery(JPQL_UTENTE_PER_EMAIL, Utente_Registrato.class, Map.of("email", normalizza(aEmail)));
         if (utenti.isEmpty()) {

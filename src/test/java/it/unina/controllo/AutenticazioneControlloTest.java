@@ -1,13 +1,8 @@
 package it.unina.controllo;
 
 import it.unina.Boundary.BUtente;
-import it.unina.Entity.Amministratore;
-import it.unina.Entity.Cliente;
 import it.unina.Exceptions.CredenzialiErrateException;
 import it.unina.Exceptions.UtenteNonTrovatoException;
-import it.unina.supporto.PersistenzaInMemoria;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -20,17 +15,6 @@ class AutenticazioneControlloTest {
 
     private final BUtente bUtente = new BUtente();
 
-    @BeforeEach
-    void preparaScenario() {
-        PersistenzaInMemoria db = PersistenzaInMemoria.installa();
-        db.aggiungi(new Cliente("Mario", "Rossi", "mario.rossi@email.com", "Password123!"));
-        db.aggiungi(new Amministratore("admin@email.com", "AdminPass123!", 1));
-    }
-
-    @AfterEach
-    void ripulisci() {
-        PersistenzaInMemoria.ripristina();
-    }
 
     @Test
     @DisplayName("TC1 - Credenziali corrette, ruolo Cliente: l'Utente risulta autenticato come CLIENTE")

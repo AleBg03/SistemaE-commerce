@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fb3c4b6-c870-4b04-8852-67424250beaf" name="Changes" comment="2 commit : Problemi di invio del pom.xml">
+    <list default="true" id="0fb3c4b6-c870-4b04-8852-67424250beaf" name="Changes" comment="2 commit : Main">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/unina/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unina/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unina/Boundary/FormRegistrazione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unina/Boundary/FormRegistrazione.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unina/Entity/E_commerce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unina/Entity/E_commerce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/it/unina/controllo/AutenticazioneControlloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/unina/controllo/AutenticazioneControlloTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/it/unina/controllo/RegistrazioneControlloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/unina/controllo/RegistrazioneControlloTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/it/unina/funzionale/AutenticazioneFunzionaleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/it/unina/funzionale/RegistrazioneFunzionaleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/it/unina/supporto/PersistenzaInMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/it/unina/supporto/ProvaGrafica.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,27 +30,47 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AleBg03"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AleBg03&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AleBg03/SistemaE-commerce.git",
-    "accountId": "9f1e784d-44da-4b4a-8a0d-115ad02ac773"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AleBg03/SistemaE-commerce.git&quot;,
+    &quot;accountId&quot;: &quot;9f1e784d-44da-4b4a-8a0d-115ad02ac773&quot;
   }
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3KMjEHDQeZ6xlspBwUg4TNIZlnX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.AutenticazioneControlloTest.executor": "Run",
+    "JUnit.AutenticazioneFunzionaleTest.executor": "Run",
+    "JUnit.RegistrazioneControlloTest.executor": "Run",
+    "JUnit.RegistrazioneFunzionaleTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/aless/IdeaProjects/SistemaE-commerce/src/main/java/it/unina",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -48,7 +82,7 @@
       <recent name="C:\Users\aless\IdeaProjects\SistemaE-commerce\.idea" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.unina.Main" />
       <module name="SistemaECommerce0" />
@@ -62,11 +96,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AutenticazioneControlloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SistemaECommerce0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unina.controllo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.unina.controllo" />
+      <option name="MAIN_CLASS_NAME" value="it.unina.controllo.AutenticazioneControlloTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutenticazioneFunzionaleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SistemaECommerce0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unina.funzionale.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.unina.funzionale" />
+      <option name="MAIN_CLASS_NAME" value="it.unina.funzionale.AutenticazioneFunzionaleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrazioneControlloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SistemaECommerce0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unina.controllo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.unina.controllo" />
+      <option name="MAIN_CLASS_NAME" value="it.unina.controllo.RegistrazioneControlloTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrazioneFunzionaleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SistemaECommerce0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unina.funzionale.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.unina.funzionale" />
+      <option name="MAIN_CLASS_NAME" value="it.unina.funzionale.RegistrazioneFunzionaleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.RegistrazioneControlloTest" />
+        <item itemvalue="JUnit.AutenticazioneControlloTest" />
+        <item itemvalue="JUnit.AutenticazioneFunzionaleTest" />
+        <item itemvalue="JUnit.RegistrazioneFunzionaleTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.27258.48" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.27258.48" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="2 commit : Problemi di invio del pom.xml">
@@ -77,11 +183,33 @@
       <option name="project" value="LOCAL" />
       <updated>1791308866810</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2 commit : Main">
+      <option name="closed" value="true" />
+      <created>1791309644081</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1791309644081</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fb3c4b6-c870-4b04-8852-67424250beaf" name="Changes" comment="2 commit : Main" />
+      <created>1791374220443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791374220443</updated>
+      <workItem from="1791374222362" duration="34000" />
+      <workItem from="1791378131630" duration="6853000" />
+      <workItem from="1791467153377" duration="2504000" />
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2 commit : Problemi di invio del pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 commit : Problemi di invio del pom.xml" />
+    <MESSAGE value="2 commit : Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 commit : Main" />
   </component>
 </project>
